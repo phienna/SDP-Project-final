@@ -8,7 +8,7 @@ WORKDIR /app
 ENV FLASK_APP=flaskr
 
 COPY requirements/base.txt ./requirements/base.txt
-# COPY flaskr ./flaskr
+COPY flaskr ./flaskr
 
 # FROM base as testing
 
@@ -30,5 +30,5 @@ FROM base as production
 
 RUN pip3 install -r requirements/base.txt
 
-# EXPOSE 5000
-# CMD ["flask", "run", "--host=0.0.0.0"]
+EXPOSE 5000
+CMD ["flask", "run", "--host=0.0.0.0"]
