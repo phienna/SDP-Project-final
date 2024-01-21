@@ -22,7 +22,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
     - name: Build Docker image for production
-      run: docker build --platform linux/arm/v8 --target production . --tag ${{ secrets.DOCKERHUB_USERNAME }}/flask-mio:prod
+      run: buildx create --name multi-arch --platform "linux/arm64,linux/amd64,linux/arm/v6,linux/arm/v8" --driver "docker-container" --target production . --tag ${{ secrets.DOCKERHUB_USERNAME }}/flask-mio:prod
 
     - name: Push to Docker Hub
       run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/flask-mio:prod
