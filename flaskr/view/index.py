@@ -6,3 +6,4 @@ bp = Blueprint('index', __name__, url_prefix='/')
 def index():
 
     return 'Hello World!'
+    
