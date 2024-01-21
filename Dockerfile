@@ -1,4 +1,4 @@
-FROM python:3.19-alpine as base
+FROM alpine:latest as base
 
 RUN apk update
 RUN apk add python3-dev
