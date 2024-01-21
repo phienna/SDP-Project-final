@@ -5,9 +5,9 @@ RUN apk add python3-dev
 
 WORKDIR /app
 
-# ENV FLASK_APP=flaskr
+ENV FLASK_APP=flaskr
 
-# COPY requirements/base.txt ./requirements/base.txt
+COPY requirements/base.txt ./requirements/base.txt
 # COPY flaskr ./flaskr
 
 # FROM base as testing
@@ -28,7 +28,7 @@ WORKDIR /app
 
 FROM base as production
 
-# RUN pip3 install -r requirements/base.txt
+RUN pip3 install -r requirements/base.txt
 
 # EXPOSE 5000
 # CMD ["flask", "run", "--host=0.0.0.0"]
