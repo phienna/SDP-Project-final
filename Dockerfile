@@ -26,7 +26,7 @@ WORKDIR /app
 # RUN ["coverage", "run", "-m", "pytest", "-m", "api"]
 # RUN ["coverage", "report", "--fail-under", "80"]
 
-# FROM base as production
+FROM base as production
 
 # RUN pip3 install -r requirements/base.txt
 
