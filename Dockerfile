@@ -13,7 +13,7 @@ COPY flaskr ./flaskr
 FROM base as testing
 
 COPY requirements/tests.txt ./requirements/tests.txt
-RUN pip3 install -r requirements/test.txt
+RUN pip3 install -r requirements/tests.txt
 
 COPY pytest.ini ./pytest.ini
 COPY .coveragerc ./.coveragerc
