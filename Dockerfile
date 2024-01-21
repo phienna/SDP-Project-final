@@ -1,7 +1,7 @@
 FROM alpine:latest as base
 
 RUN apk update
-RUN apk add python3 python3-dev pip3
+RUN apk add python3 python3-dev py3-pip
 
 WORKDIR /app
 
