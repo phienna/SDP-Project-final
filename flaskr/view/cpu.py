@@ -1,6 +1,6 @@
 from flask import Blueprint
 
-from ..service.cputemp import get_cpu_temp as Hardware
+from ..service.hardware import Hardware
 
 bp = Blueprint('cpu', __name__, url_prefix='/cpu')
 
