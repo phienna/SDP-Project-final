@@ -25,7 +25,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
     - name: Build Docker image for production
-      run: build --target production . --tag ${{ secrets.DOCKERHUB_USERNAME }}/flask-mio:prod
+      run: docker build --target production . --tag ${{ secrets.DOCKERHUB_USERNAME }}/flask-mio:prod
 
     - name: Push to Docker Hub
       run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/flask-mio:prod
