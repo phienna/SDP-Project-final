@@ -4,14 +4,20 @@ Bearbeitet von: Bernhard Monschiebl mio22m024, Christiane Philipp mio22m026
 
 ## Letzte Projektphase
 
-### Erstellte Dateien
+### Veränderte Dateien
 
 * Folder flaskr/service:
   * `__init__.py`
   * `hardware.py`
+* Folder flaskr/view:
+  * `cpu.py`
+  * `disk.py`
+  * `config.py`
 * Folder test:
   * `conftest.py`
   * `test_cpu.py`
+  * `test_disk.py`
+  * `test_config.py`
 
 ### Ausgeführtes Resultat
 
@@ -24,7 +30,12 @@ CPU Temperatur
 Disk Usage
 ![Alt text](image-1.png)
 
+Configuration
+
+
 ### Projektabschluss
+
+Zusätzlich zur Aufgabenstellung wurde noch die Funktionalität "config" hinzugefügt.
 
 ### Github-Repository
 
