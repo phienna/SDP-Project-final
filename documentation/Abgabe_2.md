@@ -31,7 +31,7 @@ Disk Usage
 ![Alt text](image-1.png)
 
 Configuration
-
+![Alt text](image-2.png)
 
 ### Projektabschluss
 
