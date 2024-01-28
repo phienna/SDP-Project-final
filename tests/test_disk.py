@@ -7,7 +7,7 @@ from flaskr.view.disk import disk_usage
 def test_disk_usage(mocker):
     mocker.patch('flaskr.view.disk.Hardware.get_disk_usage',
                  return_value=25)
-    diskUsage= disk_usage()
+    diskUsage = disk_usage()
 
     assert '25' == diskUsage
 
