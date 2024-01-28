@@ -9,7 +9,7 @@ class Hardware:
     def get_config_int(self):
         import os
 
-        config_int = os.popen("vcgencmd get_config int").readline()
+        config_int = os.popen("vcgencmd get_config int").read()
         return config_int
 
 # print(get_cpu_temp())
