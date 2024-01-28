@@ -9,7 +9,7 @@ class Hardware:
     def get_disk_usage(self):
         import os
 
-        temp = os.popen("df -h").readline()
-        return temp
+        usage = os.popen("df -h").read()
+        return usage
 
 # print(get_cpu_temp())
