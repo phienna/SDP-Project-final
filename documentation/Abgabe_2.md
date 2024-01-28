@@ -22,6 +22,7 @@ CPU Temperatur
 ![Alt text](<2024-01-28 17_59_56-192.168.0.234_5000_cpu_temp - Vivaldi.png>)
 
 Disk Usage
+![Alt text](image-1.png)
 
 ### Projektabschluss
 
