@@ -15,6 +15,14 @@ Bearbeitet von: Bernhard Monschiebl mio22m024, Christiane Philipp mio22m026
 
 ### Ausgeführtes Resultat
 
+Containerstart mit gemoutetem Device:
+![Alt text](image.png)
+
+CPU Temperatur
+![Alt text](<2024-01-28 17_59_56-192.168.0.234_5000_cpu_temp - Vivaldi.png>)
+
+Disk Usage
+
 ### Projektabschluss
 
 ### Github-Repository
