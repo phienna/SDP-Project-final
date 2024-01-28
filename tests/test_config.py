@@ -7,9 +7,9 @@ from flaskr.view.config import config_int
 def test_config_int(mocker):
     mocker.patch('flaskr.view.config.Hardware.get_config_int',
                  return_value=42)
-    config_int = config_int()
+    config = config_int()
 
-    assert '42' == config_int
+    assert '42' == config
 
 
 @pytest.mark.api
