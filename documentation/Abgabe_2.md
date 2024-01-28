@@ -37,6 +37,8 @@ Configuration
 
 Zusätzlich zur Aufgabenstellung wurde noch die Funktionalität "config" hinzugefügt.
 
+![Alt text](image-3.png)
+
 ### Github-Repository
 
 * github: <https://github.com/phienna/SDP-Project-final>
