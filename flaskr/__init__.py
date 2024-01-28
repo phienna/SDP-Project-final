@@ -13,4 +13,7 @@ def create_app(test_config=None):
     from flaskr.view import disk
     app.register_blueprint(disk.bp)
 
+    from flaskr.view import config
+    app.register_blueprint(config.bp)
+
     return app
